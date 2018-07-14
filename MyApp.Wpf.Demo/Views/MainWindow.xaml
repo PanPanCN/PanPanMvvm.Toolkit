@@ -1,0 +1,24 @@
+﻿<Window
+    x:Class="MyApp.Wpf.Demo.Views.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:command="clr-namespace:PanPan.MVVM.Command;assembly=PanPan.MVVM"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+    xmlns:local="clr-namespace:MyApp.Wpf.Demo"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    DataContext="{Binding Source={StaticResource Locator}, Path=MainWindowViewModel}"
+    mc:Ignorable="d">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="MouseMove">
+            <command:RelayEventCommand Command="{Binding MouseMoveCommand}" />
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <StackPanel>
+        <Button Command="{Binding ConfirmCommand}" Content="确定" />
+        <TextBlock Text="{Binding Path=TipText}" />
+    </StackPanel>
+</Window>

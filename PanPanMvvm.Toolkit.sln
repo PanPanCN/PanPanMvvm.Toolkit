@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PanPanMvvm.Toolkit.Wpf", "PanPanMvvm.Toolkit.Wpf\PanPanMvvm.Toolkit.Wpf.csproj", "{CB665F4A-51A4-447E-9261-248C40CE870B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Wpf.Demo", "MyApp.Wpf.Demo\MyApp.Wpf.Demo.csproj", "{222B6E88-808E-43A6-ABAF-6B34238970B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CB665F4A-51A4-447E-9261-248C40CE870B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB665F4A-51A4-447E-9261-248C40CE870B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB665F4A-51A4-447E-9261-248C40CE870B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{222B6E88-808E-43A6-ABAF-6B34238970B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222B6E88-808E-43A6-ABAF-6B34238970B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222B6E88-808E-43A6-ABAF-6B34238970B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222B6E88-808E-43A6-ABAF-6B34238970B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
